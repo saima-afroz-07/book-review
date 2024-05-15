@@ -1,0 +1,82 @@
+2024-05-13 17:21:09:219 [31merror[39m: [31mBookReview validation failed: modified: Path `modified` is required., book_id: Path `book_id` is required.[39m
+2024-05-13 19:59:47:5947 [31merror[39m: [31mCast to ObjectId failed for value "SchemaObjectId {[39m
+[31m  path: '664223ad35b8b90c16023d74',[39m
+[31m  instance: 'ObjectId',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ '664223ad35b8b90c16023d74' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type SchemaObjectId) at path "_id" for model "Book"[39m
+2024-05-13 20:01:01:11 [31merror[39m: [31mTransaction numbers are only allowed on a replica set member or mongos[39m
+2024-05-13 20:05:06:56 [31merror[39m: [31mBookReview validation failed: book_id: Path `book_id` is required., rating: `FIVe` is not a valid enum value for path `rating`.[39m
+2024-05-13 20:05:45:545 [31merror[39m: [31mBookReview validation failed: book_id: Path `book_id` is required., rating: `FIVe` is not a valid enum value for path `rating`.[39m
+2024-05-13 20:08:45:845 [31merror[39m: [31mBookReview validation failed: rating: `FIVe` is not a valid enum value for path `rating`.[39m
+2024-05-13 21:19:08:198 [31merror[39m: [31mBookReview validation failed: book_id: Path `book_id` is required.[39m
+2024-05-13 21:30:26:3026 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'mm' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-13 21:36:15:3615 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'mm' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-13 21:36:15:3615 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: 'mm' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-13 21:37:40:3740 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '664229f23fdf11647eacc938a' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-13 21:37:40:3740 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '664229f23fdf11647eacc938a' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-13 21:37:48:3748 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '664229f23fdf11647eacc93' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-13 21:37:48:3748 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '664229f23fdf11647eacc93' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-13 21:41:49:4149 [31merror[39m: [31mBookReview validation failed: review_text: Path `review_text` is required.[39m
+2024-05-13 21:41:49:4149 [31merror[39m: [31mBookReview validation failed: review_text: Path `review_text` is required.[39m
+2024-05-13 21:59:25:5925 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '664229f23fdf11647eacc93' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-13 21:59:25:5925 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '664229f23fdf11647eacc93' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-13 22:00:03:03 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:02:57:257 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:02:59:259 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:12:17:1217 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:15:27:1527 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:15:33:1533 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:15:36:1536 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:15:56:1556 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:15:58:1558 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:21:31:2131 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:21:33:2133 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:23:21:2321 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:24:15:2415 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:24:55:2455 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:24:56:2456 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:27:02:272 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:28:15:2815 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:28:43:2843 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:29:45:2945 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:34:21:3421 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:39:37:3937 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:48:02:482 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '664229f23fdf11647eacc938a' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-14 11:48:02:482 [31merror[39m: [31mCast to ObjectId failed for value "{ _id: '664229f23fdf11647eacc938a' }" (type Object) at path "_id" for model "BookReview"[39m
+2024-05-14 11:52:46:5246 [31merror[39m: [31mvalue must be of type object[39m
+2024-05-14 11:55:39:5539 [31merror[39m: [31mid length must be 24 characters long[39m
+2024-05-14 11:55:44:5544 [31merror[39m: [31mid length must be 24 characters long[39m
+2024-05-14 11:55:57:5557 [31merror[39m: [31mid must only contain hexadecimal characters[39m
+2024-05-14 11:57:37:5737 [31merror[39m: [31mid length must be 24 characters long[39m
+2024-05-14 11:57:42:5742 [31merror[39m: [31mid length must be 24 characters long[39m
+2024-05-14 11:59:24:5924 [31merror[39m: [31mNo review found[39m
+2024-05-14 11:59:24:5924 [31merror[39m: [31mNo review found[39m
+2024-05-14 12:29:50:2950 [31merror[39m: [31mrating must be one of [ONE, TWO, THREE, FOUR, FIVE]. rating must be a string[39m
+2024-05-14 12:30:06:306 [31merror[39m: [31mreview_text must be a string[39m
+2024-05-14 12:30:18:3018 [31merror[39m: [31mbook_id must be a string[39m
+2024-05-14 12:30:30:3030 [31merror[39m: [31mbook_id length must be 24 characters long[39m
+2024-05-14 12:30:39:3039 [31merror[39m: [31mbook_id length must be 24 characters long[39m
+2024-05-14 12:33:20:3320 [31merror[39m: [31mBook with given book id not found![39m
+2024-05-14 12:33:20:3320 [31merror[39m: [31mBook with given book id not found![39m
+2024-05-14 12:33:29:3329 [31merror[39m: [31mbook_id is required[39m
+2024-05-14 12:52:39:5239 [31merror[39m: [31mReview with given id not found![39m
+2024-05-14 12:52:39:5239 [31merror[39m: [31mReview with given id not found![39m
+2024-05-14 12:53:45:5345 [31merror[39m: [31mReview with given id not found![39m
+2024-05-14 12:53:45:5345 [31merror[39m: [31mReview with given id not found![39m
+2024-05-14 12:53:49:5349 [31merror[39m: [31mid length must be 24 characters long[39m
+2024-05-14 12:53:51:5351 [31merror[39m: [31mid length must be 24 characters long[39m
+2024-05-14 13:15:09:159 [31merror[39m: [31mid length must be 24 characters long[39m
+2024-05-14 13:15:12:1512 [31merror[39m: [31mid length must be 24 characters long[39m
+2024-05-14 13:15:16:1516 [31merror[39m: [31mBook with given id not found![39m
+2024-05-14 13:15:16:1516 [31merror[39m: [31mBook with given id not found![39m
+2024-05-14 16:34:05:345 [31merror[39m: [31mBook with given book id not found![39m
+2024-05-14 16:34:05:345 [31merror[39m: [31mBook with given book id not found![39m
+2024-05-14 23:36:29:3629 [31merror[39m: [31mbook_id must only contain hexadecimal characters. book_id length must be 24 characters long[39m
+2024-05-16 01:21:49:2149 [31merror[39m: [31mNo review found[39m
+2024-05-16 01:21:50:2150 [31merror[39m: [31mNo review found[39m
