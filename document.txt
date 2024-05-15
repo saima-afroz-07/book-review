@@ -1,0 +1,70 @@
+This is the summary of the project for both frontend and backend
+
+Commands to run frontend/Client:
+step 1: Direct to the client folder path named book-angular-project
+step 2: run command -> npm install
+step 3: To run the project -> ng serve
+
+The website will be direct to url localhost:4200
+
+Commands to run backend/Server:
+step 1: Direct to the server path named server itself.
+step 2: run command -> npm install
+step 3: To run the server -> npm run dev
+
+The server is getting started at port 3000. The same can be tested using Postman software in localhost:3000.
+
+Description of the project:
+BACKEND:
+1. Here express framework is used to implement the server with simplicity.
+2. For the database here mongoDB database is being used along with mongoose library for schema generation. 
+   This has happend in the db folder and the connection has been exported to the root file i.e. index.ts.
+3. dotenv package is used to access the environment variables.
+4. For error handling http-errors, winston, morgan packages are being used and for validation joi package.
+5. Models and interfaces for book and review has been created.
+6. Using express.js, routes are implemented. Following are the routes:
+    - /api/reviews
+        - get all reviews -> '/' (GET method)
+        - get a review by id -> '/:id' (GET method)
+        - create a review -> '/' (POST method)
+        - update a review by id -> '/:id' (PUT method)
+        - delete a review by id -> '/:id' (DELETE method)
+    -/api/books
+        - get all books -> '/' (GET method)
+        - get a book by id -> '/:id' (GET method)
+        - create a book -> '/' (POST method)
+        - delete a book by id -> '/:id' (DELETE method)
+7. Wherever needed, api has been passed through 2 middlewares
+    - One that does the validation od the data of incoming request.body.
+    - another middleware is the controller which take next function(of previous middleware) control and process the request.
+8. Response has been handled carefully in an object format containg attributes 
+    - success(boolean)
+    - status(contains status code)
+    - data(contains object or array of data)
+    - error(error message, this appears only if error occurs)
+
+
+FRONTEND:
+1. After installing the angular project(16.2.1 version), angular also added as per requirement.
+2. Here the environment folder contains the environment variables used in the project. 
+3. Component angular-material is created from where all angular material modules are exported.
+4. Home Component is the home page redirected at url localhost:4200 for this project. 
+   It has the two buttons to create a review and list all reviews.
+5. On clicking create a review button it will redirect to a Review Form Component where a new review can be created.
+6. On clicking View list button, the entire list of reviews will be rendered. 
+7. The Actions column contains two buttons Delete and Edit.
+   Delete button will delete the row from the table.
+   Edit button will redirect to the form page with data. 
+8. All fields of the form are validated. 
+
+ADDITIONAL FEATURES:
+1. Search input has been added at the top of the list to search by book aur author name.
+2. Sort feature has been added using angular material for book and author column.
+3. Client side form validation is done. 
+
+
+The whole project will be pushed to the github repository. Below is the repository link. 
+
+
+
+
